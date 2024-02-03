@@ -1,3 +1,7 @@
+#Description:
+#This script automates the installation and configuration of Fail2Ban on a Debian system. 
+#It updates the package, prompts for fail2ban installation, configures the software and enables the fail2ban service.
+
 #!/bin/bash
 
 echo "This script will install and configure Fail2Ban on your Debian system."
