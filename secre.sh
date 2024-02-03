@@ -1,6 +1,4 @@
-#Description: This code installs Fail2Ban, a software used for intrusion prevention. It also installs Lynis, Nmap and configures the firewall for KDE connect, allowing necessary ports for the KDE connect service. 
-
-#!/bin/bash
+ #!/bin/bash
 
 # Function to install and configure Fail2ban
 install_fail2ban() {
@@ -53,3 +51,4 @@ while true; do
         *) echo "Invalid choice, please try again." ;;
     esac
 done
+
