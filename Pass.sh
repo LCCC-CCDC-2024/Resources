@@ -1,3 +1,7 @@
+#Description:
+#This script performs multiple administrative tasks relating to SSH configuration, user management and command history.
+#It backs up SSH configuration, disables root login if enabled, lists currently logged in users, and prompts for password changes and well as to clear command history.
+
  
 #!/bin/bash
 
