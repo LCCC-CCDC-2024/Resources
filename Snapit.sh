@@ -1,3 +1,7 @@
+#Description:
+#This script is designed to capture all active and ended services in a snapshot. It also has rollback services and Timeshift, used for Linux computers.
+
+
 #!/bin/bash
 
 # Global variables
