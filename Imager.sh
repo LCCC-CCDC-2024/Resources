@@ -1,3 +1,6 @@
+#Description:
+#This script is designed to create a bootable USB drive from an ISO file. 
+
 #!/bin/bash
 
 # Ensure the script is run as root
