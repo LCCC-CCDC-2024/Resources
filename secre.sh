@@ -1,4 +1,8 @@
- #!/bin/bash
+#Description:
+#This script installs and configures Fail2Ban, installs Lynis, install Nmap, and configures the systems firewall with KDE connect.
+ 
+ 
+#!/bin/bash
 
 # Function to install and configure Fail2ban
 install_fail2ban() {
