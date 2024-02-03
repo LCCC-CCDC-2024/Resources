@@ -1,3 +1,8 @@
+#Description:
+#This script runs with administrative privlieges in Powershell. It prompts the user for changing passwords for the user selected. It also will print out all local users on the Active directory Domain Services. 
+#It also prompts for the user to clear the command history. 
+
+
 # Ensure running in PowerShell with Administrator privileges
 if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) {
     Write-Host "This script must be run as an Administrator." -ForegroundColor Red
