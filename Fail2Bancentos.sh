@@ -1,3 +1,6 @@
+#Description: 
+#This script installs EPEL Repository, updates the system's package list, installs and configures Fail2Ban service, and enables it.
+
 #!/bin/bash
 
 # Install EPEL Repository
